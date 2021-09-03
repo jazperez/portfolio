@@ -28,11 +28,34 @@ body{
   .title {
     font-size:6vw;
     color: $font-color;
+    display: block;
+    margin-bottom: 0.3em;
+    font-weight: bold;
   }
   .bio {
     color: $font-color;
     line-height: 1.6em;
     font-size: 16px;
+  }
+  .menu {
+    display: block;
+  }
+  
+  a.button {
+    display:inline-block;
+    padding:0.5em 1.2em;
+    margin-right: 1em;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:$base-color;
+    font-weight: bold;
+    text-align:center;
+    transition: all 0.2s;
+  }
+  
+  a.button:hover {
+    opacity: 0.7;
   }
 }
 
@@ -42,4 +65,24 @@ body{
   height: 30em;
   margin-left: 15%;
   margin-right: 2%;
+}
+
+.blue-background{
+  background-color: $cbpk-blue;
+}
+.purple-background {
+  background-color: $cbpk-purple;
+}
+.pink-background {
+  background-color: $cbpk-pink;
+}
+
+.blue {
+  color: $cbpk-blue;
+}
+.purple {
+  color: $cbpk-purple;
+}
+.pink {
+  color: $cbpk-pink;
 }
