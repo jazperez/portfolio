@@ -1,4 +1,6 @@
-# [Jazmin's Portfolio] (https://jazperez.github.io/portfolio/)
+# Jazmin's Portfolio
+
+Access here: https://jazperez.github.io/portfolio/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
