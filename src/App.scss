@@ -56,13 +56,13 @@ body{
     margin: 2em;
   }
   .title {
-    font-size: 7vw;
+    font-size: 6vw;
     color: $font-color;
     display: block;
     margin-bottom: 0.3em;
     font-weight: bold;
     @media (max-width: $mobile-breakpoint) {
-      font-size: 7vw;
+      font-size: 10vw;
     }
   }
   .bio {
@@ -103,9 +103,7 @@ body{
   margin-left: 20%;
   margin-right: 2%;
   @media (max-width: $desktop-breakpoint) {
-    margin: 2em;
-    max-width:75%;
-    height: 75%;
+    margin: 3em 3em 0 3em;
   }
 }
 
