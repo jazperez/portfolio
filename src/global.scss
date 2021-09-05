@@ -1,0 +1,36 @@
+$base-color: #1E1E1E;
+$second-base-color: #383838;
+$cbpk-blue: #36C7D0;
+$cbpk-purple: #7E8CE0;
+$cbpk-pink: #FF99C8;
+$font-color: white;
+
+$font-stack: "Roboto", "Helvetica", "Arial", sans-serif;
+
+$desktop-breakpoint: 1120px;
+$tablet-breakpoint: 800px;
+$mobile-breakpoint: 450px;
+
+.blue-background{
+    background-color: $cbpk-blue;
+}
+.purple-background {
+    background-color: $cbpk-purple;
+}
+.pink-background {
+    background-color: $cbpk-pink;
+}
+
+.blue {
+    color: $cbpk-blue;
+}
+.purple {
+    color: $cbpk-purple;
+}
+.pink {
+    color: $cbpk-pink;
+}
+
+body{
+    background-color: $base-color;
+}
