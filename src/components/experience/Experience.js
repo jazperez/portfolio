@@ -1,9 +1,13 @@
 import './experience.scss';
+import Navbar from '../navbar/Navbar';
 
 function Experience() {
     return (
-    <div className="App-header under-constr">
-        <h1 className="white">Page under construction, please come back later 😊</h1>
+    <div>
+        <Navbar />
+        <div className="container">
+            <h1 className="under-constr white">Page under construction, please come back later 😊</h1>
+        </div>
     </div>
     );
 }
