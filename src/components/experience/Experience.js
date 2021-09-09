@@ -6,7 +6,7 @@ function Experience() {
     <div>
         <Navbar />
         <div className="container">
-            <h1 className="under-constr white">Page under construction, please come back later 😊</h1>
+            <p className="under-constr white">Page under construction, please come back later 😊 </p>
         </div>
     </div>
     );

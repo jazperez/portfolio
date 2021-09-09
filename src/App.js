@@ -2,6 +2,10 @@ import './App.scss';
 import Home from "./components/home/Home.js";
 import Experience from "./components/experience/Experience.js";
 import { Route, Switch } from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+library.add(fab, faLaptopCode);
 
 function App() {
 
