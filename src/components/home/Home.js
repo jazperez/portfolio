@@ -1,8 +1,8 @@
 import './home.scss';
-// import profilePicture from 'src/JazPortfolioPic.png';
+import profilePicture from "./JazPortfolioPic.png";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Home() {
     const textRef = useRef();
@@ -19,6 +19,7 @@ function Home() {
     return (
         <div className="App">
         <header className="App-header">
+            <img src={profilePicture} className="profile-pic" alt="Jaz's profile" />
             <div className="welcome-content">
                 <span className="title">
                     <span className="greeting" ref={textRef}></span>
