@@ -21,9 +21,9 @@ function Navbar () {
             }
         } else {
             // backwards compatibility
-            mediaWatcher.addListener(updateIsNarrowScreen);
+            mediaWatcher.addListener('change', updateIsNarrowScreen);
             return function cleanup() {
-                mediaWatcher.removeListener(updateIsNarrowScreen);
+                mediaWatcher.removeListener('change', updateIsNarrowScreen);
             }
         }
     });
