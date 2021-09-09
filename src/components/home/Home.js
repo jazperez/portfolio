@@ -25,7 +25,7 @@ function Home() {
                     <span className="greeting" ref={textRef}></span>
                 </span>
                 <span className="menu">
-                    <Link to="/experience" className="button blue-background" alt="Experience">Experience</Link>
+                    <Link to="/portfolio/experience" className="button blue-background" alt="Experience">Experience</Link>
                     <a href="https://github.com/jazperez" className="button purple-background" alt="Github profile">Github</a>
                     <a href="https://www.linkedin.com/in/jazmin-perez24/" className="button pink-background" alt="Linkedin profile">Linkedin</a>
                 </span>
