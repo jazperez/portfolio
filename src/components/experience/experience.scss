@@ -1,6 +1,12 @@
 @import "src/global.scss";
-@import "src/components/home/home.scss";
+
+.container {
+    margin-top: 5em;
+}
 
 .under-constr {
     text-align: center;
+    font-size: 1.5em;
+    display: block;
+    margin: 5em;
 }
