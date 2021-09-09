@@ -30,7 +30,15 @@ $mobile-breakpoint: 450px;
 .pink {
     color: $cbpk-pink;
 }
+.white {
+    color: $font-color;
+}
+.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
 
 body{
     background-color: $base-color;
+    min-height: 100vh;
 }
