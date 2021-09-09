@@ -14,11 +14,17 @@ function Navbar () {
         function updateIsNarrowScreen(e) {
             setIsNarrowScreen(e.matches);
         }
-        mediaWatcher.addEventListener('change', updateIsNarrowScreen);
-    
-        // clean up after ourselves
-        return function cleanup() {
-            mediaWatcher.removeEventListener('change', updateIsNarrowScreen);
+        if(mediaWatcher.addEventListener) {
+            mediaWatcher.addEventListener('change', updateIsNarrowScreen);
+            return function cleanup() {
+                mediaWatcher.removeEventListener('change', updateIsNarrowScreen);
+            }
+        } else {
+            // backwards compatibility
+            mediaWatcher.addListener(updateIsNarrowScreen);
+            return function cleanup() {
+                mediaWatcher.removeListener(updateIsNarrowScreen);
+            }
         }
     });
 
