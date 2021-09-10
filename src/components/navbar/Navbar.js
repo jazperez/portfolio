@@ -1,32 +1,22 @@
 import './navbar.scss';
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Navbar () {
-    const [isNarrowScreen, setIsNarrowScreen] = useState(false);
 
-    useEffect(() => {
-        // set initial value
-        const mediaWatcher = window.matchMedia("(max-width: 800px)");
-    
-        //watch for updates
-        function updateIsNarrowScreen(e) {
-            setIsNarrowScreen(e.matches);
-        }
-        if(mediaWatcher.addEventListener) {
-            mediaWatcher.addEventListener('change', updateIsNarrowScreen);
-            return function cleanup() {
-                mediaWatcher.removeEventListener('change', updateIsNarrowScreen);
-            }
+    function checkMediaSize(mediaWatcher) {
+        console.log(isNarrowScreen);
+        console.log(mediaWatcher.matches);
+        if (mediaWatcher.matches) { 
+            isNarrowScreen = true; 
         } else {
-            // backwards compatibility
-            mediaWatcher.addListener('change', updateIsNarrowScreen);
-            return function cleanup() {
-                mediaWatcher.removeListener('change', updateIsNarrowScreen);
-            }
+            isNarrowScreen = false;
         }
-    });
+    }
+    var mediaWatcher = window.matchMedia("(max-width: 700px)");
+    var isNarrowScreen = null;
+    checkMediaSize(mediaWatcher);
 
     if (isNarrowScreen) {
         return (
