@@ -1,12 +1,34 @@
 @import "src/global.scss";
 
 .container {
-    margin-top: 5em;
+    margin: 5em 2em 2em 2em;
+}
+.section-title {
+    font-size: 1.4em;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    grid-auto-rows: auto; 
+    grid-gap: 1rem;
+    @media (max-width: $mobile-breakpoint) {
+        grid-template-columns: repeat(1, 1fr);  
+    }
 }
 
-.under-constr {
-    text-align: center;
-    font-size: 1.5em;
-    display: block;
-    margin: 5em;
+.card {
+    color: $font-color;
+    background-color: $second-base-color;
+    padding: 2em;
+    border-radius: 1em;
+    .card-title {
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .card-subtitle {
+        font-size: 1 sem;
+    }
+    .card-details {
+        display: inline-block;
+    }
 }

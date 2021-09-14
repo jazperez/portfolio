@@ -1,29 +1,32 @@
 import './experience.scss';
 import Navbar from '../navbar/Navbar';
+import Data from './experience.json';
 
 function Experience() {
-    const roles = [
-        { id: 1, 
-        title: 'Software Engineering Intern', 
-        company: 'PiñataFarms', 
-        date: 'Sep 2020 - Dec 2020', 
-        location: 'Remote', 
-        team: 'Engineering', 
-        description:'Built various web clients, both for internal infrastructure and consumer facing products using Vue.js, GraphQL and AWS. Designed and tested accessible and high quality UI/UX using Figma. Debugged and updated existing features.'},
-        { id: 2, 
-        title: 'Software Engineering Intern', 
-        company: 'Uber', 
-        date: 'Sep 2020 - Dec 2020', 
-        location: 'Remote', 
-        team: 'Driving Safety', 
-        description:'Developed a feature in Scala on an existing platform to process telematics data aimed towards building products to ensure the safety of users on the Uber platform. Queried and analyzed data using SQL and Jupyter Notebook.'},
-    ];
 
     return (
     <div>
         <Navbar />
         <div className="container">
-            <p className="under-constr white">Page under construction, please come back later 😊 </p>
+            <h2 className="section-title blue">Work Experience</h2>
+            <div className="cards">
+                { Data.map(role => {
+                    return (
+                        <div className="card" key={ role.id }>
+                            <div className="card-title"> { role.title } </div>
+                            <div className="card-subtitle"> { role.company } </div>
+                            <div>
+                                <div className="card-details">{ role.location }</div> | <div className="card-details">{ role.date }</div>
+                            </div>
+                            <div>{ role.team }</div>
+                            <div>{ role.description }</div>
+                            <div>{ role.projects }</div>
+                            <div>{ role.link }</div>
+                        </div>
+                    )
+                    })
+                }
+            </div>
         </div>
     </div>
     );
