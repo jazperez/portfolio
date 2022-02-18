@@ -1,24 +1,25 @@
 import './navbar.scss';
 import { Link } from "react-router-dom";
-// import { useEffect, useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import  { useState , useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Navbar () {
+    const [isScreenNarrow, setIsScreenNarrow] = useState(null);
 
-    function checkMediaSize(mediaWatcher) {
-        console.log(isNarrowScreen);
-        console.log(mediaWatcher.matches);
+    function checkMediaSize() {
+        const mediaWatcher = window.matchMedia("(max-width: 700px)");
         if (mediaWatcher.matches) { 
-            isNarrowScreen = true; 
+            setIsScreenNarrow(true); 
         } else {
-            isNarrowScreen = false;
+            setIsScreenNarrow(false); 
         }
     }
-    var mediaWatcher = window.matchMedia("(max-width: 700px)");
-    var isNarrowScreen = null;
-    checkMediaSize(mediaWatcher);
 
-    if (isNarrowScreen) {
+    useEffect(() => {
+        checkMediaSize();
+    }, []);
+
+    if (isScreenNarrow) {
         return (
             <ul className="navbar">
                 <li className="navbar-title">
