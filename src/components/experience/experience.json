@@ -3,11 +3,6 @@
         "id": 1, 
         "title": "Software Engineering Intern", 
         "company": "PiñataFarms", 
-        "date": "Sep 2020 - Dec 2020", 
-        "location": "Remote", 
-        "team": "Engineering", 
-        "description":"Built various web clients, both for internal infrastructure and consumer facing products using Vue.js, GraphQL and AWS. Designed and tested accessible and high quality UI/UX using Figma. Debugged and updated existing features.",
-        "projects": "",
         "link": ""
     },
     { 
