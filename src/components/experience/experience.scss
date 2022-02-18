@@ -1,7 +1,14 @@
 @import "src/global.scss";
 
+.under-constr {
+    text-align: center;
+    font-size: 1em;
+    display: block;
+}
+
 .container {
     margin: 5em 2em 2em 2em;
+    font-family: $font-stack;
 }
 .section-title {
     font-size: 1.4em;
@@ -30,5 +37,9 @@
     }
     .card-details {
         display: inline-block;
+    }
+    .card-link {
+        text-decoration: none;
+        float: right;
     }
 }

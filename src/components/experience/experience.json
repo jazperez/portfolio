@@ -8,39 +8,24 @@
         "team": "Engineering", 
         "description":"Built various web clients, both for internal infrastructure and consumer facing products using Vue.js, GraphQL and AWS. Designed and tested accessible and high quality UI/UX using Figma. Debugged and updated existing features.",
         "projects": "",
-        "link": "https://www.pinatafarm.com/"
+        "link": ""
     },
     { 
         "id": 2, 
         "title": "Software Engineering Intern", 
         "company": "Uber", 
-        "date": "May 2020 - Aug 2020", 
-        "location": "Remote",
-        "team": "Driving Safety", 
-        "description":"Developed a feature in Scala on an existing platform to process telematics data aimed towards building products to ensure the safety of users on the Uber platform. Queried and analyzed data using SQL and Jupyter Notebook.",
-        "projects": "Safety Hackathon - Integrated a new feature in Golang that enables users’ trusted contacts to be notified through SMS with a shared trip url after an emergency has been initiated. Configured a Kafka topic and implemented the Kafka producer.",
         "link": "https://eng.uber.com/safety-engineering-interns-2020/"
     },
     { 
         "id": 3, 
         "title": "UberSTAR Software Engineering Intern", 
         "company": "Uber", 
-        "date": "Jun 2019 - Aug 2019", 
-        "location": "San Francisco, CA",
-        "team": "Matching Mechanics", 
-        "description":"Developed a strategy to quantitatively analyze if each filter applied to the matchmaking algorithm is effective. Collaborated with a team of two other interns to use Java to build a shadow framework and display the effectiveness of the constraints on a dashboard using Grafana. Created unit tests and perform integration tests.",
-        "projects": "",
         "link": ""
     },
     { 
         "id": 4, 
         "title": "Sofrware Developer", 
         "company": "META+Lab", 
-        "date": "Feb 2018 - May 2019", 
-        "location": "Northridge, CA",
-        "team": "Front-End", 
-        "description":"Collaborate with Back-End Developers, Designers and the Operation teams to develop accessible and high quality UI/UX products for CSUN and the surrounding community. Mentor interns and facilitate their integration into the project development and META+LAB.",
-        "projects": "OPG (Official Police Garage) - Perform bug fixes and provide maintenance on existing features. Complete unfinished features using Vue.js/Vuex. NOMI (Names of Matador Individuals): Develop, NOMI, a Single-Page web application that uses HTML, SASS/CSS, JavaScript, Vue.js, Vuex and Laravel. Design reusable and modular components using Vue.js. Ensure accessibility and develop responsive web based UI. NOMI allows faculty to quickly learn students’ names through flash cards and games which motivates students engagement in the classroom.",
         "link": ""
     }
 ]
