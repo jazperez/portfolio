@@ -48,9 +48,9 @@ function Home() {
                                 <FontAwesomeIcon icon={['fab', 'linkedin']} />
                             </a>
                         </span>
-                        <p className="bio">I am Jazmin Perez and I am a Software Engineer. <br></br>I recently graduated from CSU Northridge with a B.S. in Computer Science and a minor in Chicanx Studies. </p>
-                        <p className="bio">I am an active member of the Society of Women Engineers, Society of Hispanic Engineers and Girls Who Code.</p>
-                        <p className="bio">I thought it would be fun to learn React, so I created this portfolio. Enjoy!</p>
+                        <p className="bio">My name is Jazmín Pérez and I am a Software Engineer based in San Francisco.<br></br>I graduated from CSU Northridge with a B.S. in Computer Science and a minor in Chicana/o/x Studies in 2021.</p>
+                        <p className="bio">I am an active participant and leader in the Society of Women Engineers, Society of Hispanic Engineers and Girls Who Code.</p>
+                        <p className="bio">Some of my interests include <strong>full-stack development</strong>, <strong>robotics</strong>, <strong>JavaScript game development</strong> and <strong>learning new languages</strong>.</p>
                     </div>
                 </header>
             </div>
@@ -70,9 +70,9 @@ function Home() {
                             <a href="https://github.com/jazperez" className="button purple-background" alt="Github profile">Github</a>
                             <a href="https://www.linkedin.com/in/jazmin-perez24/" className="button pink-background" alt="Linkedin profile">Linkedin</a>
                         </span>
-                        <p className="bio">I am Jazmin Perez and I am a Software Engineer. <br></br>I recently graduated from CSU Northridge with a B.S. in Computer Science and a minor in Chicanx Studies. </p>
-                        <p className="bio">I am an active member of the Society of Women Engineers, Society of Hispanic Engineers and Girls Who Code.</p>
-                        <p className="bio">I thought it would be fun to learn React, so I created this portfolio. Enjoy!</p>
+                        <p className="bio">My name is Jazmín Pérez and I am a Software Engineer based in San Francisco.<br></br>I graduated from CSU Northridge with a B.S. in Computer Science and a minor in Chicana/o/x Studies in 2021.</p>
+                        <p className="bio">I am an active participant and leader in the Society of Women Engineers, Society of Hispanic Engineers and Girls Who Code.</p>
+                        <p className="bio">Some of my interests include <strong>full-stack development</strong>, <strong>robotics</strong>, <strong>JavaScript game development</strong> and <strong>learning new languages</strong>.</p>
                     </div>
                 </header>
             </div>
