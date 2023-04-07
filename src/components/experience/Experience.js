@@ -3,14 +3,13 @@ import Navbar from '../navbar/Navbar';
 import Data from './experience.json';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Experience() {
+function Experience ()   {
 
     return (
     <div>
         <Navbar />
         <div className="container">
             <h2 className="section-title blue">/ experience</h2>
-            <p className="under-constr white">* Page still under construction *</p>
             <div className="cards">
                 { Data.map(role => {
                     return (
@@ -31,6 +30,6 @@ function Experience() {
         </div>
     </div>
     );
-}
+};
 
 export default Experience;

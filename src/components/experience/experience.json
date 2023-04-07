@@ -1,25 +1,31 @@
 [
     { 
         "id": 1, 
-        "title": "Software Engineering Intern", 
-        "company": "PiñataFarms", 
+        "title": "Front-End Engineer", 
+        "company": "Imply", 
         "link": ""
     },
     { 
         "id": 2, 
         "title": "Software Engineering Intern", 
+        "company": "PiñataFarms", 
+        "link": ""
+    },
+    { 
+        "id": 3, 
+        "title": "Software Engineering Intern", 
         "company": "Uber", 
         "link": "https://eng.uber.com/safety-engineering-interns-2020/"
     },
     { 
-        "id": 3, 
+        "id": 4, 
         "title": "UberSTAR Software Engineering Intern", 
         "company": "Uber", 
         "link": ""
     },
     { 
-        "id": 4, 
-        "title": "Sofrware Developer", 
+        "id": 5, 
+        "title": "Software Developer", 
         "company": "META+Lab", 
         "link": ""
     }
