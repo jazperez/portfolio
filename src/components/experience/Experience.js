@@ -3,8 +3,7 @@ import Navbar from '../navbar/Navbar';
 import Data from './experience.json';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Experience ()   {
-
+const Experience = () =>  {
     return (
     <div>
         <Navbar />
