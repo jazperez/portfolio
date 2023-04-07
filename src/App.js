@@ -7,7 +7,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faLaptopCode, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 library.add(fab, faLaptopCode, faExternalLinkAlt);
 
-function App() {
+const App = () => {
 
   return (
     <main>

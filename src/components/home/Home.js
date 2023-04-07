@@ -5,11 +5,11 @@ import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Home() {
+const Home = () => {
     const textRef = useRef();
     const [isScreenNarrow, setIsScreenNarrow] = useState(null);
 
-    function checkMediaSize() {
+    const checkMediaSize = () => {
         const mediaWatcher = window.matchMedia("(max-width: 700px)");
         if (mediaWatcher.matches) {
             setIsScreenNarrow(true);

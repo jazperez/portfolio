@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import  { useState , useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Navbar () {
+const Navbar = () => {
     const [isScreenNarrow, setIsScreenNarrow] = useState(null);
 
-    function checkMediaSize() {
+    const checkMediaSize = () => {
         const mediaWatcher = window.matchMedia("(max-width: 700px)");
         if (mediaWatcher.matches) { 
             setIsScreenNarrow(true); 
