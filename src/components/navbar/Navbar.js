@@ -49,7 +49,7 @@ const Navbar = () => {
             <ul className="navbar">
                 <li className="navbar-title">
                     <Link to="/portfolio/" className="navbar-title-link" alt="Jazmin Perez, back to Home">
-                        Jazmin Perez
+                        JP
                     </Link>
                 </li>
                 <li>
