@@ -29,7 +29,7 @@ const Home = () => {
         return (
             <div className="App">
                 <div className="about-container">
-                    {!isScreenNarrow &&  <img src={profilePicture} className="profile-pic" alt="Jaz's profile" />}
+                    <img src={profilePicture} className="profile-pic" alt="Jaz's profile" />
                     <div className="welcome-content">
                         <span className="title">
                             <span className="greeting" ref={textRef}></span>
