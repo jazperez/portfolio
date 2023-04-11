@@ -1,7 +1,6 @@
 import './experience.scss';
 import Navbar from '../navbar/Navbar';
 import Data from './experience.json';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Experience = () =>  {
     return (
@@ -17,7 +16,7 @@ const Experience = () =>  {
                             <div className="card-subtitle"> { role.company } </div>
                             <div>{ (role.link === "") ? <div></div> 
                                 : <a href={role.link} className="white card-link" alt="External link to project showcase">
-                                    <FontAwesomeIcon icon="external-link-alt" /> Blog
+                                    Blog
                                 </a>
                                 } 
                             </div>
