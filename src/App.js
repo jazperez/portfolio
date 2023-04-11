@@ -1,5 +1,6 @@
 import './App.scss';
-import Home from "./components/home/Home.js";
+import About from "./components/about/About.js";
+import Navbar from './components/navbar/Navbar';
 import Experience from "./components/experience/Experience.js";
 import { Route, Switch } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -11,10 +12,8 @@ const App = () => {
 
   return (
     <main>
-      <Switch>
-        <Route path="/portfolio" exact component={Home} />
-        <Route path="/portfolio/experience" component={Experience} />
-      </Switch>
+      <Navbar />
+      <About />
     </main>
   );
 }

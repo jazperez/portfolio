@@ -38,7 +38,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li>
-                    <Link to="/portfolio/experience" className="nav-button blue-background" alt="Experience">
+                    <Link to="/portfolio/" className="nav-button blue-background" alt="Experience">
                         <FontAwesomeIcon icon="laptop-code" />
                     </Link>
                 </li>
@@ -49,7 +49,7 @@ const Navbar = () => {
             <ul className="navbar">
                 <li className="navbar-title">
                     <Link to="/portfolio/" className="navbar-title-link" alt="Jazmin Perez, back to Home">
-                        Jazmin Perez
+                        JP
                     </Link>
                 </li>
                 <li>
@@ -59,7 +59,7 @@ const Navbar = () => {
                     <a href="https://github.com/jazperez" className="nav-button purple-background" alt="Github profile">Github</a>
                 </li>
                 <li>
-                    <Link to="/portfolio/experience" className="nav-button blue-background" alt="Experience">Experience</Link>
+                    <Link to="/portfolio/" className="nav-button blue-background" alt="Experience">Experience</Link>
                 </li>
             </ul>
         );
