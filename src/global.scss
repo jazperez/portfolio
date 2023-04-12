@@ -33,10 +33,6 @@ $mobile-breakpoint: 450px;
 .white {
     color: $font-color;
 }
-.disabled {
-    opacity: 0.3;
-    pointer-events: none;
-}
 
 body {
     background-color: $base-color;
