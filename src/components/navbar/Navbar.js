@@ -8,7 +8,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 const Navbar = () => {
 	return (
 		<Grid container direction="row" justifyContent="center" alignItems="center" className="navbar">
-			<Grid item xs>
+			<Grid item xs={6} sm={6} md={6}>
 				<Link
 					to="/portfolio/"
 					className="navbar-title-link"
@@ -17,7 +17,7 @@ const Navbar = () => {
 					JP
 				</Link>
 			</Grid>
-			<Grid item xs>
+			<Grid item xs={6} sm={6} md={6}>
 				<Stack
 					spacing={{ xs: 1, sm: 2, md: 4 }}
 					direction="row"

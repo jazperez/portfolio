@@ -5,7 +5,7 @@ $cbpk-purple: #7E8CE0;
 $cbpk-pink: #FF99C8;
 $font-color: white;
 
-$font-stack: "Roboto", Sans-serif;
+$font-stack: "Montserrat", Sans-serif;
 
 $desktop-breakpoint: 1120px;
 $tablet-breakpoint: 800px;
@@ -32,10 +32,6 @@ $mobile-breakpoint: 450px;
 }
 .white {
     color: $font-color;
-}
-.disabled {
-    opacity: 0.3;
-    pointer-events: none;
 }
 
 body {
