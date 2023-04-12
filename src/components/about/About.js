@@ -33,13 +33,17 @@ const Home = () => {
 			direction={isScreenNarrow ? "column" : "row"}
 			justifyContent="center"
 			alignItems="center"
-			className="blue-background about-container"
+			className="about-container"
 		>
-			<Grid item xs={6} sm={6} md={6} className="pink-backgound">
-				<img src={profilePicture} className="profile-pic" alt="Jaz's profile" />
+			<Grid container item  xs={6} sm={6} md={6} justifyContent="center" alignContent='center'>
+                    <img
+						src={profilePicture}
+						className="profile-pic"
+						alt="Jaz's profile"
+					/>
 			</Grid>
-			<Grid item xs={6} sm={6} md={6} className="purple-background">
-				<div className="welcome-content">
+			<Grid container item  xs={6} sm={6} md={6} justifyContent="center" alignContent='center'>
+				<div className="about-content">
 					<span className="title">
 						<span className="greeting" ref={textRef}></span>
 					</span>
@@ -62,19 +66,6 @@ const Home = () => {
 				</div>
 			</Grid>
 		</Grid>
-		// <div className="App">
-		//     <div className="about-container">
-		//         <img src={profilePicture} className="profile-pic" alt="Jaz's profile" />
-		//         <div className="welcome-content">
-		//             <span className="title">
-		//                 <span className="greeting" ref={textRef}></span>
-		//             </span>
-		//             <p className="bio">My name is Jazmín Pérez and I am a Software Engineer based in San Francisco.<br></br>I graduated from CSU Northridge with a B.S. in Computer Science and a minor in Chicana/o/x Studies in 2021.</p>
-		//             <p className="bio">I am an active participant and leader in the Society of Women Engineers, Society of Hispanic Professional Engineers and Girls Who Code.</p>
-		//             <p className="bio">Some of my interests include <strong>full-stack development</strong>, <strong>robotics</strong>, <strong>JavaScript game development</strong> and <strong>learning new languages</strong>.</p>
-		//         </div>
-		//     </div>
-		// </div>
 	);
 };
 

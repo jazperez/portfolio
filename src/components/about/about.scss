@@ -1,14 +1,17 @@
 @import "src/global.scss";
 
 .about-container {
-    padding-top: 10em;
+    padding-top: 10%;
+    @media (max-width: $mobile-breakpoint) {
+        padding-top: 20%;
+    }
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.welcome-content {
+.about-content {
     font-family: $font-stack;
-    display: block;
-    margin-left: 2%;
-    margin-right: 20%;
+    margin: 5%;
 }
 .title {
     font-size: 6vw;
@@ -25,7 +28,7 @@
 .bio {
     color: $font-color;
     line-height: 1.6em;
-    font-size: 1rem;
+    font-size: 1em;
 }
 .profile-pic {
     border-radius: 20%;
